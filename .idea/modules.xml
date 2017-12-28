@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-One/Gradle-One.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-One/Gradle-One.iml" group="Gradle-One" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-One/Gradle-One_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-One/Gradle-One_main.iml" group="Gradle-One" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-One/Gradle-One_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-One/Gradle-One_test.iml" group="Gradle-One" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-Three/Gradle-Three.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-Three/Gradle-Three.iml" group="Gradle-Three" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-Three/Gradle-Three_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-Three/Gradle-Three_main.iml" group="Gradle-Three" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-Three/Gradle-Three_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-Three/Gradle-Three_test.iml" group="Gradle-Three" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-Two.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-Two.iml" group="Gradle-Two" />
+      <module fileurl="file://G:\study\GradleTest\.idea\modules\Gradle-Two\Gradle-Two.iml" filepath="G:\study\GradleTest\.idea\modules\Gradle-Two\Gradle-Two.iml" group="Gradle-Two" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-Two/Gradle-Two_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-Two/Gradle-Two_main.iml" group="Gradle-Two" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-Two/Gradle-Two_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-Two/Gradle-Two_test.iml" group="Gradle-Two" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-first/Gradle-first_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-first/Gradle-first_main.iml" group="Gradle-first" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-first/Gradle-first_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-first/Gradle-first_test.iml" group="Gradle-first" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GradleTest.iml" filepath="$PROJECT_DIR$/.idea/modules/GradleTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GradleTest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GradleTest_main.iml" group="GradleTest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GradleTest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GradleTest_test.iml" group="GradleTest" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+group 'GradleTest'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'    //声明使用的语言,工具类型
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8 //jdk版本
+
+//配置下载jar包的仓库
+repositories {
+    //中央仓库是比较慢的
+    mavenCentral()
+}
+
+//配置引入的jar包和引入的其他同级别的gradle项目
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+//这个gradle文件为全局的gradle文件 , 配置全局通用
+//使用gradle但是没有用spring创建的项目

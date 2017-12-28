@@ -1,0 +1,5 @@
+rootProject.name = 'GradleTest'
+include 'Gradle-Three'
+include 'Gradle-One'
+include 'Gradle-Two'
+
