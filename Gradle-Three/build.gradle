@@ -1,14 +1,7 @@
-group 'GradleTest'
-version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+project(':Gradle-Three') {
+    dependencies {
+        //引入Gradle-Two项目
+        compile project(':Gradle-Two')
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+    }
 }
