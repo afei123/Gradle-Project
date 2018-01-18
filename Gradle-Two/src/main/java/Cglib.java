@@ -1,7 +1,4 @@
-import org.springframework.cglib.proxy.Enhancer;
-import org.springframework.cglib.proxy.InvocationHandler;
-import org.springframework.cglib.proxy.MethodInterceptor;
-import org.springframework.cglib.proxy.MethodProxy;
+import org.springframework.cglib.proxy.*;
 
 import java.lang.reflect.Method;
 
@@ -23,13 +20,28 @@ public class Cglib {
         asd.asd();
     }
     public static void InvocationHanderle(){
-        Bean asd = (Bean)Enhancer.create(Bean.class, new InvocationHandler() {
+        Bean bean = new Bean();
+        bbb asd = (bbb) Proxy.newProxyInstance(bean.getClass().getClassLoader(), bean.getClass().getInterfaces(), new InvocationHandler() {
             @Override
             public Object invoke(Object o, Method method, Object[] objects) throws Throwable {
                 if (method.getName().equals("asd")){
                     System.out.println(321);
                 }
-                return null;
+                return method.invoke(bean,objects);
+            }
+        });
+        asd.asd();
+    }
+    public static void JDKIncoationHandler(){
+        Bean bean = new Bean();
+        bbb asd = (bbb)java.lang.reflect.Proxy.newProxyInstance(bean.getClass().getClassLoader(), bean.getClass().getInterfaces(), new java.lang.reflect.InvocationHandler() {
+            @Override
+            public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                if (method.getName().equals("asd")){
+                    System.out.println(321);
+                }
+                Object invoke = method.invoke(bean, args);
+                return invoke;
             }
         });
         asd.asd();
